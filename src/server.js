@@ -8,7 +8,7 @@ server.use(cors());
 server.use(express.json());
 
 server.get('/todos', (req, res) => {
-    res.json({message: 'Hello World'});
+    res.json({message: 'Hello World, Fatec Rio Preto!'});
 })
 
 server.listen(process.env.PORT || 3000);
